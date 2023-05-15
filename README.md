@@ -1,3 +1,6 @@
+# Here is the hosted link of my app .....
+https://tourmaline-souffle-4bb452.netlify.app
+
 # Here's a brief explanation of the code that i had used in making this project..... 
 
 #- The component defines a state variable called data using the useState hook to store the chart data.
