@@ -1,3 +1,47 @@
+# Here's a brief explanation of the code that i had used in making this project..... 
+
+#- The component defines a state variable called data using the useState hook to store the chart data.
+
+#- The fetchData function is called when a button is clicked. It makes an HTTP request using axios to retrieve text content from a specific URL.
+
+#- The fetched content is processed to calculate the frequency of each word.
+
+#- The top 20 words with the highest frequency are selected and their frequency data is stored in an array.
+
+#- The chart data is prepared by creating an object with options and series configuration for the chart.
+
+#- The chartData object is set as the state using the setData function.
+
+#- The handleExport function is called when another button is clicked. It converts the chart data into a CSV format and triggers a file download.
+
+#- The component renders a container with a "Submit" button for fetching data.
+
+#- If the data state is available, a chart is rendered using the Chart component from react-apexcharts.
+
+#- The chart is displayed along with an "Export" button for downloading the data as a CSV file.
+
+#- Then, I had used some CSS for styling my app like, in styling the chart, button and many more components that i had written in my App.css File.
+
+##- These all code fetches text data, analyzes word frequency, and visualizes the results in a bar chart using React and the react-apexcharts library.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
